@@ -1,6 +1,7 @@
 CS 330
 Fall 2025
 
+From PvZ folder
 To complile 
 javac -d out $(Get-ChildItem -Recurse -Filter *.java | Select-Object -ExpandProperty FullName)
 
