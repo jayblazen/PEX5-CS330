@@ -1,6 +1,17 @@
 CS 330
 Fall 2025
 
+To complile 
+javac -d out $(Get-ChildItem -Recurse -Filter *.java | Select-Object -ExpandProperty FullName)
+
+To run 
+java -cp out core.PvZ6
+
+
+
+
+
+
 Name: Ayden Woodhead
 Documentation Statement:
     I used https://www.w3schools.com/java to refrenece java docs, math functions and example
